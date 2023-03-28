@@ -1,1 +1,22 @@
-<h2><%= @list.name %></h2>
+coucou
+
+<% var typed = new Typed('#typed', {
+    stringsElement: '#typed-strings'
+  }); %>
+
+
+<div id="typed-strings">
+  <p>Typed.js is a <strong>JavaScript</strong> library.</p>
+  <p>It <em>types</em> out sentences.</p>
+</div>
+
+<%# <span id="typed"></span> %>
+
+<%import Typed from 'typed.js';%>
+
+<% var options = {
+  strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+  typeSpeed: 40,
+};%>
+
+<% var typed = new Typed('.element', options);%>

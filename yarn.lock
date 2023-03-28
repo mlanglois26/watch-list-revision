@@ -11,3 +11,8 @@ bootstrap@^5.2.3:
   version "5.2.3"
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.2.3.tgz#54739f4414de121b9785c5da3c87b37ff008322b"
   integrity sha512-cEKPM+fwb3cT8NzQZYEu4HilJ3anCrWqh3CHAok1p9jXqMPsPTBhU25fBckEJHJ/p+tTxTFTsFQGM+gaHpi3QQ==
+
+typed.js@^2.0.14:
+  version "2.0.14"
+  resolved "https://registry.yarnpkg.com/typed.js/-/typed.js-2.0.14.tgz#d9cd42f710bbc882dd9a007573686231c51b1497"
+  integrity sha512-tAgtrZDaz8CZ9dTuon9uglFLlNDVz94IF5yYOVtuTTjIjkZI5gg5BJi6JxE9uAmmoc7wY7w6XI59sjgsR8yA9g==
